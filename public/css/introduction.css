@@ -1,0 +1,35 @@
+.introduction_container{
+    height: 700px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /*Origem da Imagem: Print do Jogo Outlast 2 tirado por mim*/
+    background-image: url('../../src/assets/imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.introduction_sub_container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.478));
+}
+
+.introduction_txts{
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.introduction_txts h1{
+    color: white;
+}
+
+.introduction_txts p{
+    color: white;
+}
+
+.introduction_txts h1, p{
+    margin: 0;
+}
