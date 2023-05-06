@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,14 @@
     <!--Styles Components-->
     <link rel="stylesheet" href="./public/css/navbar.css">
     <link rel="stylesheet" href="./public/css/introduction.css">
+    <link rel="stylesheet" href="./public/css/resume.css">
+    <link rel="stylesheet" href="./public/css/skills.css">
 
     <!--Styles Animations-->
     <link rel="stylesheet" href="./public/css/animations.css">
     <title>Felipe S Ramos</title>
 </head>
+
 <body>
 
     <nav class="navbar_container">
@@ -39,7 +43,66 @@
             </div>
         </div>
     </header>
-    <h1>Criação Portfolio</h1>
-    
+    <!--Resumo About Me-->
+    <section class="resume_container">
+        <h1>About Me</h1>
+        <div class="resume_sub_container">
+            <div class="resume_imagem slide_in_left">
+                <img src="./src/assets/imgs/meme.jpg" alt="">
+            </div>
+            <div class="resume_txts slide_in_right">
+                <h2>Felipe Santos Ramos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iusto placeat totam similique
+                    deserunt earum voluptatibus soluta itaque dolorum sint maiores consectetur, inventore nesciunt
+                    nostrum libero vero ut. Non, enim.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore suscipit odit ea optio
+                    architecto assumenda reiciendis corrupti iste dolor vero aut, voluptatem consectetur, placeat
+                    eveniet. Nihil ea voluptatum fugiat!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde commodi consequuntur odio
+                    vitae sint error quos laudantium numquam debitis labore laboriosam voluptate ipsam fuga dolores quo,
+                    placeat nulla fugiat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills e Tecnologias-->
+    <section class="skills_container">
+        <div>
+            <h1>Tecnologias</h1>
+        </div>
+
+        <template id="cardTemplate">
+            <div class="skills_card slide_in_up">
+                <img src="">
+                <div class="skills_card_txts">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+        </template>
+
+        <div id="skillCard" class="skills_card_container">
+        </div>
+
+        <h1 class="slide_in_up">Perfil Pessoal</h1>
+        <div class="skills_profile">
+            <ul class="skills_profile_1 slide_in_left">
+                <li>Comunicativo</li>
+                <li>inglês intermediário</li>
+                <li>Proativo</li>
+                <li>Trabalho em Equipe</li>
+            </ul>
+            <ul class="skills_profile_2 slide_in_right">
+                <li>Métodos àgeis</li>
+                <li>Adaptação</li>
+                <li>Relação Intrapessoal</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Scripts Components-->
+    <script src="./public/js/SkillCard.js"></script>
 </body>
+
 </html>

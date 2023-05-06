@@ -1,0 +1,80 @@
+.skills_container{
+    min-height: 600px;
+    margin: 0;
+    background-color: black;
+}
+
+.skills_container h1{
+    color: white;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.skills_card_container{
+    /*border: 2px solid white;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.skills_card{
+    min-width: 100px;
+    border: 2px solid white;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills_card img{
+    height: 100px;
+    width: 100px;
+    /*border: 2px solid white;*/
+    border-radius: 20px;
+}
+
+.skills_card_txts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    /*border: 2px solid white;*/
+}
+
+.skills_card_txts p, .skills_card_txts h2{
+    color: white;
+}
+
+.skills_profile{
+    /*border: 2px solid white;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills_profile ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills_profile_1{
+    margin-left: 10%;
+}
+
+.skills_profile_2{
+    margin-right: 10%;
+}
+
+.skills_profile li{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
