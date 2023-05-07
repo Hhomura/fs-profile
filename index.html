@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./public/css/introduction.css">
     <link rel="stylesheet" href="./public/css/resume.css">
     <link rel="stylesheet" href="./public/css/skills.css">
+    <link rel="stylesheet" href="./public/css/projects.css">
+    <link rel="stylesheet" href="./public/css/profile.css">
 
     <!--Styles Animations-->
     <link rel="stylesheet" href="./public/css/animations.css">
@@ -21,7 +23,7 @@
 
 <body>
 
-    <nav class="navbar_container">
+    <nav class="navbar_container slide_in_down">
         <div class="navbar_logo">
             <p>Akemis Companys</p>
         </div>
@@ -38,8 +40,8 @@
     <header class="introduction_container">
         <div class="introduction_sub_container">
             <div class="introduction_txts slide_in_left">
-                <h1>Desenvolvedor web iniciante</h1>
-                <p>Olá, me chamo Felipe Santos</p>
+                <h1>Olá! Me chamo Felipe Santos Ramos</h1>
+                <p>Desenvolvedor Web e Mobile</p>
             </div>
         </div>
     </header>
@@ -48,20 +50,20 @@
         <h1>About Me</h1>
         <div class="resume_sub_container">
             <div class="resume_imagem slide_in_left">
-                <img src="./src/assets/imgs/meme.jpg" alt="">
+                <img src="./src/assets/imgs/profile.jpg" alt="">
             </div>
             <div class="resume_txts slide_in_right">
                 <h2>Felipe Santos Ramos</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iusto placeat totam similique
-                    deserunt earum voluptatibus soluta itaque dolorum sint maiores consectetur, inventore nesciunt
-                    nostrum libero vero ut. Non, enim.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore suscipit odit ea optio
-                    architecto assumenda reiciendis corrupti iste dolor vero aut, voluptatem consectetur, placeat
-                    eveniet. Nihil ea voluptatum fugiat!
+                <p>Sou técnico de nivel médio em desenvolvimento de Jogos Digitais
+                    pelo IFAM campus avançado de Manacapuru e atualmente sou estudante de Análise e Desenvolvimento de
+                    Sistemas Pela UNIFAVIP.</p>
+                <p>Gosto bastante de Desenvolvimento Web e pretendo seguir na área porém, tenho experiência com criação
+                    de aplicações para mobile e jogos, por isso não pretendo parar os estudos pra essas outras áreas.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde commodi consequuntur odio
-                    vitae sint error quos laudantium numquam debitis labore laboriosam voluptate ipsam fuga dolores quo,
-                    placeat nulla fugiat.</p>
+                <p>
+                    Sou uma pessoa comuniicativa e me dou bem em trabalhos de equipe. Consigo me adaptar em qualquer
+                    ambiente de trabalho e no que puder sempre ajudo o próximo.
+                </p>
             </div>
         </div>
     </section>
@@ -69,7 +71,7 @@
     <!--Skills e Tecnologias-->
     <section class="skills_container">
         <div>
-            <h1>Tecnologias</h1>
+            <h1>Hard Skills</h1>
         </div>
 
         <template id="cardTemplate">
@@ -77,7 +79,6 @@
                 <img src="">
                 <div class="skills_card_txts">
                     <h2></h2>
-                    <p></p>
                 </div>
             </div>
         </template>
@@ -97,10 +98,33 @@
                 <li>Métodos àgeis</li>
                 <li>Adaptação</li>
                 <li>Relação Intrapessoal</li>
+                <li>SCRUM</li>
             </ul>
         </div>
     </section>
+    <!--Projetos-->
+    <section class="projects_container">
+        <h1>Projetos</h1>
+    </section>
 
+    <!--Perfil-->
+    <section class="profile_container">
+        <h1>Perfil</h1>
+        <div class="profile_card">
+            <img src="./src/assets/imgs/meme.jpg" alt="">
+            <div class="profile_card_txts">
+                <h2>Felipe Santos Ramos</h2>
+                <p>Técnio em Programação de Jogos digitais. Acdêmico em ADS.</p>
+            </div>
+        </div>
+        <div class="profile_links">
+            <ul>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
     <!--Scripts Components-->
     <script src="./public/js/SkillCard.js"></script>
 </body>

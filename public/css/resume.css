@@ -1,41 +1,45 @@
 .resume_container{
-    min-height: 600px;
+    min-height: 700px;
     background-color: white;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 50px;
 }
 
 .resume_container h1{
+    width: 10%;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 70px;
     font-weight: none;
-    font-style: italic;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 
 .resume_sub_container{
     display: flex;
+    margin-bottom: 70px;
 }
 
 .resume_imagem{
     /*border: 2px solid green;*/
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     flex: 1;
     padding: 10px;
 }
 
 .resume_imagem img{
-    width: 70%;
-    height: 90%;
-    border-radius: 5px;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
     transition: 0.4s;
 }
 
 .resume_txts{
-    /*border: 2px solid blue;*/
+    border: 3px solid gray;
+    border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -47,10 +51,4 @@
 .resume_txts p{
     margin: 20px;
     font-size: 20px;
-}
-
-.resume_imagem img:hover{
-    width: 71%;
-    height: 91%;
-    box-shadow: 4px 8px 6px 8px #484848;
 }

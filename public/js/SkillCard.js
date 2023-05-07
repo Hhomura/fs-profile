@@ -17,18 +17,12 @@ var data = [{
 {
     title: "Java",
     description:"intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-640x400.jpg"
 },
 
 {
     title: "Android",
     description:"Básico",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
-},
-
-{
-    title: "SCRUM",
-    description:"Métodos àgeis",
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
 },
 {
@@ -47,24 +41,8 @@ var data = [{
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
 },
 {
-    title: "C#",
-    description:"intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
-},
-{
-    title: "SQL",
-    description:"MySQL, MariaDb, PostgreSQL",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
-},
-
-{
     title: "GIT",
     description:"GitHub, BitBucket",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
-},
-{
-    title: "Em Breve...",
-    description:"Futuras Tecnologias para aprender",
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
 },
 ]
@@ -77,11 +55,11 @@ function createCards() {
         var clone = document.importNode(cardTemplate.content, true);
         var img = clone.querySelector("img");
         var h2 = clone.querySelector("h2");
-        var p = clone.querySelector("p");
+        //var p = clone.querySelector("p");
 
         img.setAttribute("src", item.src);
         h2.textContent = item.title;
-        p.textContent = item.description;
+        //p.textContent = item.description;
 
         container.appendChild(clone);
     });
