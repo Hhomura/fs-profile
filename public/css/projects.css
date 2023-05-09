@@ -1,35 +1,37 @@
 .projects_container{
     background-color: white;
     padding: 30px;
-
+    padding-top: 50px;
 }
 
 
 .projects_container h1{
     text-align: center;
     margin: 20px;
+    margin-top: 50px;
 }
 
 .projects_cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
     margin: 5%;
+    padding: 0;
+
 }
 
 .projects_card{
-    width: 550px;
+    width: 45%;
     height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     transition: .35s;
     cursor: pointer;
 }
 
-.projects_cards:hover > :not(:hover){
+.projects_cards:hover  > :not(:hover){
     opacity: .4;
     transform: scale(0.9);
 }

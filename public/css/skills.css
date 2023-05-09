@@ -2,6 +2,11 @@
     min-height: 600px;
     margin: 0;
     background-color: black;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .skills_container h1{
@@ -13,6 +18,7 @@
 
 .skills_card_container{
     /*border: 2px solid white;*/
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -41,12 +47,11 @@
 
 .skills_card:hover img, svg{
     opacity: 0.5;
-    height: 88px;
 }
 
 .skills_card img, .skills_card svg{
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 10px;
     transition: 0.4s;
 }
@@ -56,6 +61,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    width: 100%;
     position: static;
     /*border: 2px solid white;*/
 }
@@ -64,7 +70,7 @@
     color: black;
     font-size: 10px;
     padding: 10px;
-    width: 80px;
+    width: 100%;
     margin: 0;
     text-align: center;
     transition: 0.5s;
@@ -72,7 +78,8 @@
 }
 
 .skills_profile{
-    /*border: 2px solid white;*/
+    width: 100%;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
 
