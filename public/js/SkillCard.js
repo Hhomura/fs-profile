@@ -2,48 +2,48 @@
 var data = [{
     title: "Javascript",
     description:"Intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/javascript.svg"
 },
 {
     title: "Typescript",
     description:"Básico",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/typescript.svg"
 },
 {
     title: "Node.js",
     description:"básico para intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/node.svg"
 },
 {
     title: "Java",
     description:"intermediário",
-    src:"https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem-640x400.jpg"
+    src:"./src/assets/icons/java.svg"
 },
 
 {
     title: "Android",
     description:"Básico",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/android.svg"
 },
 {
     title: "HTML5",
     description:"intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/html.svg"
 },
 {
     title: "CSS",
     description:"intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/css.svg"
 },
 {
     title: "Unity",
     description:"intermediário",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/unity.svg"
 },
 {
     title: "GIT",
     description:"GitHub, BitBucket",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+    src:"./src/assets/icons/git.svg"
 },
 ]
 

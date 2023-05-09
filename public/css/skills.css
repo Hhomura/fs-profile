@@ -49,7 +49,7 @@
     opacity: 0.5;
 }
 
-.skills_card img, .skills_card svg{
+.skills_card img, .skills_card svg, #svg{
     height: 100px;
     width: 100px;
     border-radius: 10px;
