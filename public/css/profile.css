@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 700px;
     margin: 30px;
 }
 
@@ -74,14 +75,25 @@
     color: white;
     text-decoration: none;
     padding: 20px;
-    transition: 0.4s;
+    transition: 0.2s;
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.profile_links a:hover{
+.profile_links #github:hover{
     background-color: white;
     color: black;
-    font-weight: bold;
+    border-radius: 10px;
+}
+
+.profile_links #linkedin:hover{
+    color: white;
+    background-color: rgb(23, 57, 210);
+    border-radius: 10px;
+}
+
+.profile_links #instagram:hover{
+    background-image: linear-gradient(to right, rgb(227, 15, 121), rgb(231, 9, 9), rgb(255, 64, 0)    );
+    color: white;
     border-radius: 10px;
 }

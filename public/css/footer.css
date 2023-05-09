@@ -1,0 +1,10 @@
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer_txts p, .footer_txts span{
+    color: gray;
+}

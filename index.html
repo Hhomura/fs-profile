@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./public/css/skills.css">
     <link rel="stylesheet" href="./public/css/projects.css">
     <link rel="stylesheet" href="./public/css/profile.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
 
     <!--Styles Animations-->
     <link rel="stylesheet" href="./public/css/animations.css">
@@ -30,13 +31,14 @@
 
         <div class="navbar_links">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
             </ul>
         </div>
     </nav>
+
     <header class="introduction_container">
         <div class="introduction_sub_container">
             <div class="introduction_txts slide_in_left">
@@ -46,7 +48,7 @@
         </div>
     </header>
     <!--Resumo About Me-->
-    <section class="resume_container">
+    <section id="About Me" class="resume_container">
         <h1>About Me</h1>
         <div class="resume_sub_container">
             <div class="resume_imagem slide_in_left">
@@ -67,9 +69,8 @@
             </div>
         </div>
     </section>
-
     <!--Skills e Tecnologias-->
-    <section class="skills_container">
+    <section id="Skills" class="skills_container">
         <div>
             <h1>Hard Skills</h1>
         </div>
@@ -103,30 +104,90 @@
         </div>
     </section>
     <!--Projetos-->
-    <section class="projects_container">
+    <section id="Projects" class="projects_container">
         <h1>Projetos</h1>
+
+        
+        <template id="cardProjectTemplate">
+            <div class="projects_card">
+
+                <div class="projects_card_txt">
+                    <div class="projects_card_txt_sub">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="projects_links">
+                    <a id="link1" href=""></a>
+                    <a id="link2" href=""></a>
+                </div>
+            </div>
+        </template>
+
+        <div class="projects_cards"></div>
+
+        <!--
+        <div class="projects_cards">
+            <div class="projects_card">
+                <div class="projects_card_txt">
+                    <div class="projects_card_txt_sub">
+                        <h3>AAAA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum perspiciatis, alias, ea, nostrum dolor expedita doloribus corporis blanditiis deleniti quos placeat quibusdam autem iure nesciunt sint illo. Ab, sunt?</p>
+                    </div>
+                </div>
+                <div class="projects_links">
+                    <a id="link1" href="">###</a>
+                    <a id="link2" href="">###</a>
+                </div>
+            </div>
+            
+            <div class="projects_card">
+                <div class="projects_card_txt">
+                    <div class="projects_card_txt_sub">
+                        <h3>AAAA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum perspiciatis, alias, ea, nostrum dolor expedita doloribus corporis blanditiis deleniti quos placeat quibusdam autem iure nesciunt sint illo. Ab, sunt?</p>
+                    </div>
+                </div>
+                <div class="projects_links">
+                    <a id="link1" href="">###</a>
+                    <a id="link2" href="">####</a>
+                </div>
+            </div>
+        </div>
+        -->
+
     </section>
 
     <!--Perfil-->
-    <section class="profile_container">
+    <section id="Contacts" class="profile_container">
         <h1>Perfil</h1>
         <div class="profile_card">
             <img src="./src/assets/imgs/meme.jpg" alt="">
             <div class="profile_card_txts">
                 <h2>Felipe Santos Ramos</h2>
-                <p>Técnio em Programação de Jogos digitais. Acdêmico em ADS.</p>
+                <p>Técnico em Programação de Jogos digitais. Acdêmico em ADS.</p>
             </div>
         </div>
         <div class="profile_links">
             <ul>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Github</a></li>
-                <li><a href="">Instagram</a></li>
+                <li><a id="linkedin" href="">Linkedin</a></li>
+                <li><a id="github" href="">Github</a></li>
+                <li><a id="instagram" href="">Instagram</a></li>
             </ul>
         </div>
     </section>
+
+    <footer class="footer_container">
+        <div class="footer_txts">
+            <p><span>Felipe Santos Ramos</span> - 2023</p>
+        </div>
+    </footer>
+
     <!--Scripts Components-->
     <script src="./public/js/SkillCard.js"></script>
+    <script src="./public/js/ProjectCard.js"></script>
+    <script src="./public/js/ScrollSmooth.js"></script>
 </body>
 
 </html>

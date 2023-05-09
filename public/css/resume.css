@@ -34,6 +34,7 @@
     width: 450px;
     height: 450px;
     border-radius: 100%;
+    border: 3px solid gray;
     transition: 0.4s;
 }
 
