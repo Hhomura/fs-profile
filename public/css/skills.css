@@ -1,5 +1,4 @@
 .skills_container{
-    min-height: 600px;
     margin: 0;
     background-color: black;
     padding-top: 50px;
@@ -37,6 +36,11 @@
     margin-right: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .skills_card:hover h2{
@@ -83,6 +87,10 @@
     display: flex;
     justify-content: space-around;
 
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .skills_profile ul{

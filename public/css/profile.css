@@ -38,6 +38,10 @@
 
 .profile_card_txts {
     width: 70%;
+    opacity: 0;
+    
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .profile_card_txts p,
@@ -61,6 +65,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
 }
 
 .profile_links ul{

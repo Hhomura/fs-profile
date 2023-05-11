@@ -1,0 +1,50 @@
+.skills_experience_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills_experience{
+    width: 90%;
+    /*border: 2px solid white;*/
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+.skills_experience_txts{
+    border: 2px solid white;
+    border-bottom: 0;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.skills_experience h2, .skills_experience_txts h3, .skills_experience_txts p{
+    font-weight: none;
+    color: white;
+    margin: 10px;
+}
+
+.skills_experience_txts h2{
+    border-bottom: 2px solid white;
+}
+
+.skills_experience_techs{
+    border: 2px solid white;
+    padding-left: 30px;
+}
+
+.skills_experience_techs img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.skills_experience_techs img:not(:last-child){
+    margin-right: 20px;
+}
+
+.skills_sub_txts{
+    display: flex;
+}

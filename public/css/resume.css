@@ -14,12 +14,16 @@
     margin-top: 50px;
     margin-bottom: 70px;
     font-weight: none;
-    border-bottom: 2px solid black;
 }
 
 .resume_sub_container{
     display: flex;
     margin-bottom: 70px;
+
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
 .resume_imagem{
@@ -35,17 +39,19 @@
     width: 450px;
     height: 450px;
     border-radius: 100%;
-    border: 3px solid gray;
+    border-left: 5px solid blueviolet;
+    border-top: 5px solid blueviolet;
     transition: 0.4s;
 }
 
 .resume_txts{
-    border: 3px solid gray;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     flex: 1;
+    border-bottom: 2px blueviolet solid;
+    border-right: 2px blueviolet solid;
 }
 .resume_txts h2{
     text-align: center;

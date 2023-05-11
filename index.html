@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./public/css/introduction.css">
     <link rel="stylesheet" href="./public/css/resume.css">
     <link rel="stylesheet" href="./public/css/skills.css">
+    <link rel="stylesheet" href="./public/css/skillsExperience.css">
     <link rel="stylesheet" href="./public/css/projects.css">
     <link rel="stylesheet" href="./public/css/profile.css">
     <link rel="stylesheet" href="./public/css/footer.css">
@@ -26,7 +27,7 @@
 
     <nav class="navbar_container slide_in_down">
         <div class="navbar_logo">
-            <p>Akemis Companys</p>
+            <p>Emiya's</p>
         </div>
 
         <div class="navbar_links">
@@ -51,19 +52,23 @@
     <section id="About Me" class="resume_container">
         <h1>About Me</h1>
         <div class="resume_sub_container">
-            <div class="resume_imagem slide_in_left">
+            <div class="resume_imagem ">
                 <img src="./src/assets/imgs/profile.jpg" alt="">
             </div>
-            <div class="resume_txts slide_in_right">
+            <div class="resume_txts ">
                 <h2>Felipe Santos Ramos</h2>
-                <p>Sou técnico de nivel médio em desenvolvimento de Jogos Digitais
-                    pelo IFAM campus avançado de Manacapuru e atualmente sou estudante de Análise e Desenvolvimento de
-                    Sistemas Pela UNIFAVIP.</p>
+                <p>Sou técnico de nivel médio em <strong>
+                    Programação de Jogos Digitais
+                        pelo IFAM campus avançado de Manacapuru
+                </strong> e atualmente sou estudante de <strong>
+                    Análise e Desenvolvimento de
+                        Sistemas Pela UNIFAVIP
+                </strong>.</p>
                 <p>Gosto bastante de Desenvolvimento Web e pretendo seguir na área porém, tenho experiência com criação
                     de aplicações para mobile e jogos, por isso não pretendo parar os estudos pra essas outras áreas.
                 </p>
                 <p>
-                    Sou uma pessoa comuniicativa e me dou bem em trabalhos de equipe. Consigo me adaptar em qualquer
+                    Sou <strong>comunicativo</strong> e me dou bem em <strong>trabalhos de equipe</strong>. Consigo me adaptar em qualquer
                     ambiente de trabalho e no que puder sempre ajudo o próximo.
                 </p>
             </div>
@@ -76,7 +81,7 @@
         </div>
 
         <template id="cardTemplate">
-            <div class="skills_card slide_in_up">
+            <div class="skills_card">
                 <img src="">
                 <div class="skills_card_txts">
                     <h2></h2>
@@ -87,21 +92,50 @@
         <div id="skillCard" class="skills_card_container">
         </div>
 
-        <h1 class="slide_in_up">Perfil Pessoal</h1>
+        <h1>Perfil Pessoal</h1>
         <div class="skills_profile">
-            <ul class="skills_profile_1 slide_in_left">
+            <ul class="skills_profile_1">
                 <li>Comunicativo</li>
                 <li>inglês intermediário</li>
                 <li>Proativo</li>
                 <li>Trabalho em Equipe</li>
             </ul>
-            <ul class="skills_profile_2 slide_in_right">
+            <ul class="skills_profile_2">
                 <li>Métodos àgeis</li>
                 <li>Adaptação</li>
                 <li>Relação Intrapessoal</li>
                 <li>SCRUM</li>
             </ul>
         </div>
+
+        <h1>Experiência
+        </h1>
+
+        <template id="profileExperience">
+            <div class="skills_experience">
+                <div class="skills_experience_txts">
+                    <h2 id="carg"></h2>
+                    <div class="skills_sub_txts">
+                        <h3><strong>EMPRESA:</strong></h3><h3 id="company"></h3>
+                    </div>
+                    <div class="skills_sub_txts">
+                        <p><strong>PERÍODO:</strong></p><p id="period"></p>
+                    </div>
+                    <p id="description"></p>
+                </div>
+                <div id="techs" class="skills_experience_techs">
+                </div>
+            </div>
+        </template>
+
+        <!--
+            <img src="./src/assets/icons/node.svg" alt="">
+                    <img src="./src/assets/icons/javascript.svg" alt="">
+        -->
+
+        <div class="skills_experience_container slide_in_up">
+        </div>
+
     </section>
     <!--Projetos-->
     <section id="Projects" class="projects_container">
@@ -118,8 +152,8 @@
                 </div>
 
                 <div class="projects_links">
-                    <a id="link1" href=""></a>
-                    <a id="link2" href=""></a>
+                    <a id="link1" href=""><img src="./src/assets/icons/github 2.svg" alt=""></a>
+                    <a id="link2" href=""> <img src="./src/assets/icons/SQL.svg" alt=""></a>
                 </div>
             </div>
         </template>
@@ -186,7 +220,9 @@
     <!--Scripts Components-->
     <script src="./public/js/SkillCard.js"></script>
     <script src="./public/js/ProjectCard.js"></script>
+    <script src="./public/js/SkillExperience.js"></script>
     <script src="./public/js/ScrollSmooth.js"></script>
+    <script src="./public/js/animationScroll.js"></script>
 </body>
 
 </html>
