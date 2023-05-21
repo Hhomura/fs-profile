@@ -72,6 +72,9 @@
     opacity: 0;
     padding: 10px;
     border-radius: 10px;
+    background-size: cover;
+    background-position: 1;
+    background-repeat: no-repeat;
 }
 
 

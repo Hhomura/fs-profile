@@ -14,7 +14,7 @@ var data = [{
     periodo: "Período: 1 ano e 5 meses",
     descricao: "Designado a ser programador e mentor da equipe de robótica Robotic Minds do IFAM campus avançado de Manacapuru. Atuei como programador e participannte no primeiro ano na competição First Lego League 2021. Em 2022 Atuei como Mentor da Nova Equipe.",
     techs: [
-        "",
+        "./src/assets/icons/robot.svg",
     ]
 },
 {
