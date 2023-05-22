@@ -5,7 +5,7 @@ var data = [
         desctech: "Unity | C#",
         link1: "https://github.com/Hhomura/PIBIC",
         link2: "https://drive.google.com/file/d/10S7nw83VpPKhG-SctBzbU2tgDR8bpWqG/view",
-        url: "url('/src/assets/imgs/Communication.jpg')"
+        url: "./src/assets/imgs/Communication.jpg"
     },
     {
         Titulo: "Task List",
@@ -13,7 +13,7 @@ var data = [
         desctech: "React.js | JSON.Server",
         link1: "https://github.com/Hhomura/Lista-de-Tarefas-com-React",
         link2: "https://www.linkedin.com/posts/felipe-santos-ramos-305813200_react-json-javascript-activity-7055944056480104448-b1_9?utm_source=share&utm_medium=member_desktop",
-        url: "url('/src/assets/imgs/TaskList.png')"
+        url: "./src/assets/imgs/TaskList.png"
     },
     {
         Titulo: "CRUD Postgres",
@@ -21,15 +21,31 @@ var data = [
         desctech: "Node.js | PostgresSQL | Bootstrap | handlebars",
         link1: "https://github.com/Hhomura/CRUD-Node.js-PostgreSQL",
         link2: "https://www.linkedin.com/posts/felipe-santos-ramos-305813200_nodejs-bootstrap-express-activity-7039015898292076545-ENDa?utm_source=share&utm_medium=member_desktop",
-        url: "url('/src/assets/imgs/Postgres.png')"
+        url: "./src/assets/imgs/Postgres.png"
     },
     {
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
         link1: "#",
-        link2: "#", 
-        url: "url('/src/assets/imgs/background.jpg')"
+        link2: "#",
+        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
+    },
+    {
+        Titulo: "Em breve",
+        descricao: "projeto em andamento...",
+        desctech: "...",
+        link1: "#",
+        link2: "#",
+        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
+    },
+    {
+        Titulo: "Em breve",
+        descricao: "projeto em andamento...",
+        desctech: "...",
+        link1: "#",
+        link2: "#",
+        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
     },
 ]
 
@@ -48,11 +64,8 @@ function createCards() {
         var link1 = clone.querySelector("#link1");
         var link2 = clone.querySelector("#link2");
 
-        var back = clone.querySelector(".projects_card_txt");
-
-        back.style.backgroundImage = item.url;
-        back.style.backgroundPosition = "center";
-        back.style.backgroundSize = "cover";
+        var img = clone.querySelector("#capa");
+        img.setAttribute("src", item.url);
 
         titulo.textContent = item.Titulo;
         descricao.textContent = item.descricao;
