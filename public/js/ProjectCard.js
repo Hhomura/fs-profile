@@ -27,25 +27,25 @@ var data = [
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
-        link1: "#",
-        link2: "#",
-        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
+        link1: "",
+        link2: "",
+        url: ""
     },
     {
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
-        link1: "#",
-        link2: "#",
-        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
+        link1: "",
+        link2: "",
+        url: ""
     },
     {
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
-        link1: "#",
-        link2: "#",
-        url: "https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2021/04/madoka-magica-novo-filme-destacada.jpg?w=774&ssl=1"
+        link1: "",
+        link2: "",
+        url: ""
     },
 ]
 

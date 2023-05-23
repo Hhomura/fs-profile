@@ -29,7 +29,7 @@
 .projects_card{
     width: 30%;
     height: 500px;
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
