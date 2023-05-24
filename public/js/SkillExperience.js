@@ -1,6 +1,6 @@
 var data = [{
     cargo: "Desenvolvedor de Software JR",
-    empresa: "IFAM//EMBRAPII//HANA ELETRONICS",
+    empresa: "IFAM // EMBRAPII // HANA ELETRONICS",
     periodo: "Período: 4 meses",
     descricao: "Atuei como desenvolvedor Node",
     techs: [
