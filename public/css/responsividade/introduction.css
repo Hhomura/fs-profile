@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    .introduction_container{
+        height: 900px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        /*Origem da Imagem: Print do Jogo Outlast 2 tirado por mim*/
+        background-image: url('../../src/assets/imgs/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1%;
+    }
+    .introduction_txts{
+        padding: 20px;
+    }
+    
+    .introduction_txts h1{
+        color: white;
+    }
+    
+    .introduction_txts p{
+        color: white;
+    }
+    
+    .introduction_txts h1, p{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (min-height: 960px) {
+    .introduction_container{
+        height: 1031px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        /*Origem da Imagem: Print do Jogo Outlast 2 tirado por mim*/
+        background-image: url('../../src/assets/imgs/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1%;
+    }
+}
+
+@media only screen and (min-width: 700px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {
+    .introduction_container{
+        height: 1220px;
+    }
+}

@@ -1,0 +1,135 @@
+@media only screen and (max-width: 450px) {
+    .skills_experience{
+        width: 80%;
+        /*border: 2px solid white;*/
+        padding: 5px;
+        margin-top: 0;
+    }
+
+    .skills_experience_txts h2{
+        border-bottom: 2px solid white;
+        font-size: 20px;
+    }
+
+    .skills_experience_techs img{
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .skills_sub_txts h3{
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .skills_sub_txts p{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .skills_experience{
+        width: 80%;
+        /*border: 2px solid white;*/
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .skills_experience_txts h2{
+        border-bottom: 2px solid white;
+        font-size: 20px;
+    }
+
+    .skills_experience_techs img{
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .skills_sub_txts h3{
+        font-size: 14px;
+    }
+
+    .skills_sub_txts p{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+    .skills_experience_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .skills_experience{
+        width: 90%;
+        /*border: 2px solid white;*/
+        padding: 20px;
+        margin-top: 0;
+    }
+    
+    
+    .skills_experience_txts{
+        border: 2px solid white;
+        border-bottom: 0;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    
+    .skills_experience h2, .skills_experience_txts h3, .skills_experience_txts p{
+        font-weight: none;
+        color: white;
+        margin: 10px;
+    }
+    
+    .skills_experience_txts h2{
+        border-bottom: 2px solid white;
+    }
+    
+    .skills_experience_techs{
+        border: 2px solid white;
+        padding-left: 30px;
+    }
+    
+    .skills_experience_techs img{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+    
+    .skills_experience_techs img:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    .skills_sub_txts{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {
+
+    .skills_experience_txts h2{
+        border-bottom: 2px solid white;
+        font-size: 24px;
+    }
+    .skills_sub_txts h3{
+        font-size: 20px;
+    }
+
+    .skills_sub_txts p{
+        font-size: 18px;
+    }
+
+    .skills_experience_techs img{
+        width: 50px;
+        height: 50px;
+        margin: 11px;
+    }
+}

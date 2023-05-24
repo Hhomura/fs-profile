@@ -30,23 +30,7 @@ var data = [
         link1: "",
         link2: "",
         url: ""
-    },
-    {
-        Titulo: "Em breve",
-        descricao: "projeto em andamento...",
-        desctech: "...",
-        link1: "",
-        link2: "",
-        url: ""
-    },
-    {
-        Titulo: "Em breve",
-        descricao: "projeto em andamento...",
-        desctech: "...",
-        link1: "",
-        link2: "",
-        url: ""
-    },
+    }
 ]
 
 //background-image: url(../../src/assets/imgs/background.jpg);
