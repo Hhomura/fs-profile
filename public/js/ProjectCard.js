@@ -1,7 +1,7 @@
 var data = [
     {
         Titulo: "Communication",
-        descricao: "Jogo desenvolvido como projeto de Iniciação Científica (PIBIC) durante o curso Técnico em Jogos Digitais no IFAM. O oobjetivo do Projeto é auxiliar no ensino da língua inglesa através de um jogo dinâmico e divertido.",
+        descricao: "Jogo desenvolvido como projeto de Iniciação Científica (PIBIC) durante o curso Técnico em Jogos Digitais no IFAM. O objetivo do Projeto é auxiliar no ensino da língua inglesa através de um jogo dinâmico e divertido.",
         desctech: "Unity | C#",
         link1: "https://github.com/Hhomura/PIBIC",
         link2: "https://drive.google.com/file/d/10S7nw83VpPKhG-SctBzbU2tgDR8bpWqG/view",
