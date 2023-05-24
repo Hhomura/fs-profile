@@ -66,11 +66,44 @@
 
 @media only screen and (min-width: 768px) {
 
+    .resume_container{
+        min-height: 700px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .resume_container h1{
+        margin: 0;
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 900px) {
+    
     .resume_container{
-        
+        min-height: 900px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .resume_container h1{
+        margin: 0;
+        padding: 40px;
+        text-align: center;
+        width: 100%;
     }
 
     .resume_sub_container{
@@ -87,25 +120,23 @@
 @media only screen and (min-width: 992px) {
 
     .resume_container{
-        min-height: 700px;
+        min-height: 900px;
         background-color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 50px;
+        padding-top: 30px;
         padding-left: 40px;
         padding-right: 40px;
     }
-
-    .resume_container h1{
-        width: 10%;
-        text-align: center;
-        font-size: 30px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        font-weight: none;
-    }
     
+    
+    .resume_container h1{
+        margin: 0;
+        padding: 40px;
+        text-align: center;
+    }
+
     .resume_sub_container{
         display: flex;
         flex-direction: row;
@@ -152,14 +183,15 @@
 
 @media only screen and (min-width: 1200px) {
     .resume_container{
-        height: 1240px;
+        height: 1000px;
+        padding-top: 30px;
         align-items: center;
         justify-content: center;
     }
     
     .resume_imagem img{
-        width: 420px;
-        height: 420px;
+        width: 400px;
+        height: 400px;
         border-radius: 100%;
         border-left: 5px solid blueviolet;
         border-top: 5px solid blueviolet;
@@ -178,10 +210,10 @@
     }
     .resume_txts h2{
         text-align: center;
-        font-size: 30px;
+        font-size: 27px;
     }
     .resume_txts p{
         margin: 20px;
-        font-size: 24px;
+        font-size: 21px;
     }
 }
