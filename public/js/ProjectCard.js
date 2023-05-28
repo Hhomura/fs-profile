@@ -24,6 +24,15 @@ var data = [
         url: "./src/assets/imgs/Postgres.png"
     },
     {
+        Titulo: "Service Burger",
+        descricao: "Projeto Pessoal que tem como objetivo servir como um criador de pedidos voltados para hamburgers.",
+        desctech: "Typescript | HTML | CSS | Vue.js",
+        link1: "https://github.com/Hhomura/Service-Burger-Vue.js",
+        link2: "https://drive.google.com/file/d/1VplAdFHxuVssPERRxVJ5jIMJAQP81CTp/view?usp=sharing",
+        url: "./src/assets/imgs/burger.png"
+    },
+
+    {
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
