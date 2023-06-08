@@ -21,7 +21,7 @@ var data = [{
     cargo: "Desenvolvedor de Software Android",
     empresa: "Freelancer",
     periodo: "Desde Abril de 2022",
-    descricao: "Realizo projetos voltados para plataforma mobile android utilizando o framework Android Studio. Desenvolvi e desenvolvo de aplicações simples com conexão com banco de dados e até mesmo Jogos com uso do Canvas, SurfaceView, ViewHolder e etc.",
+    descricao: "Realizo projetos voltados para plataforma mobile android utilizando o framework Android Studio. Desenvolvi e desenvolvo de aplicações simples e até mais robustas conectadas com banco de dados, estruturas de projetos (MVC, MVP) e até mesmo Jogos com uso do Canvas, SurfaceView, ViewHolder e etc.",
     techs: [
         "./src/assets/icons/android.svg",
     ]

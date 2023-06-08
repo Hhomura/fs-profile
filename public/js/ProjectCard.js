@@ -31,6 +31,14 @@ var data = [
         link2: "https://drive.google.com/file/d/1VplAdFHxuVssPERRxVJ5jIMJAQP81CTp/view?usp=sharing",
         url: "./src/assets/imgs/burger.png"
     },
+    {
+        Titulo: "Flappy Bird CLone",
+        descricao: "Projeto Pessoal que é um clone do popular Jogo Flappy Bird. Foi usado o Canvas para tabalhar as constantes renderizações no Jogo.",
+        desctech: "Java | Android",
+        link1: "https://github.com/Hhomura/FlappyBird-Android",
+        link2: "https://drive.google.com/file/d/1SNAMcnIeudUKYDQqAtHINQ72Us2lj96-/view?usp=sharing",
+        url: "./src/assets/imgs/birdBack.jpeg"
+    },
 
     {
         Titulo: "Em breve",
