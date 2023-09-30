@@ -19,8 +19,12 @@
     padding: 0;
 }
 
+.div_img{
+    padding: 10px;
+}
+
 #capa{
-    margin: 15px;
+    width: 100%;
     border-radius: 5px;
     height: 220px;
     box-shadow: 3px 7px 14px #888888;
@@ -28,7 +32,7 @@
 
 .projects_card{
     width: 30%;
-    height: 500px;
+    height: auto;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -50,6 +54,7 @@
 
 .projects_card_txt{
     width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;

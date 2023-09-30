@@ -41,6 +41,24 @@ var data = [
     },
 
     {
+        Titulo: "GitHub Search",
+        descricao: "Desafio lançado pela plataforma DIO. Um aplicativo Android que pesquisa os repositórios do usuário que tiver seu nome digitado. O app faz uso do retrofit e uma API própria do GitHub, além de que, está seguindo o padrão MVP.",
+        desctech: "Kotlin | Android | Retrofit | MVP",
+        link1: "https://github.com/Hhomura/desafio-github-search/tree/Hhomura",
+        link2: "https://drive.google.com/file/d/1xv4xmrPDeN3cEWoUFUMl-D592pPMhtIX/view?usp=sharing",
+        url: "./src/assets/imgs/gitHub_search.jpg"
+    },
+
+    {
+        Titulo: "My Books",
+        descricao: "Projeto de Conclusão de curso do IFMG. Criação de um aplicativo mobile que cadastre e liste livros conforme seu status de leitura ou concluído",
+        desctech: "Typescript | Firebase | Rest API | React Native",
+        link1: "https://github.com/Hhomura/my-books-react-native",
+        link2: "https://drive.google.com/file/d/1jWeFeHhyESs9HNHzmMcXTF7QrWW5hmIN/view?usp=sharing",
+        url: "./src/assets/imgs/my_books.png"
+    },
+
+    {
         Titulo: "Em breve",
         descricao: "projeto em andamento...",
         desctech: "...",
